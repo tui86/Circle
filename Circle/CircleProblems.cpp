@@ -60,6 +60,10 @@ void CircleProblems::ProblemB(const string filename)
                 {
                     tiepxuc.push_back(c[i]);
                 }
+                if ((count(tiepxuc.begin(), tiepxuc.end(), c[j])==0))
+                {
+                    tiepxuc.push_back(c[j]);
+                }
             }
         }
     }
